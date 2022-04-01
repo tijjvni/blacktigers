@@ -113,8 +113,62 @@ export default function Home() {
                 
             </div>
         </div>
+        <div className="px-8 md:px-16 lg:px-32 py-10 md:py-20 bg-gray-100">
+            <p className="text-xl">Some of our clients</p>
+            <div className="my-6 flex flex-wrap justify-evenly">
+                <Image src="/clients/edijen.webp" alt="Black Tiger's Security" width={300} height={150} className=" ob"/>
+                <Image src="/clients/kdsq.webp" alt="Black Tiger's Security" width={150} height={150} className=" obje"/>
+                <Image src="/clients/aa-rano.png" alt="Black Tiger's Security" width={150} height={150} className=" obje"/>
+                <Image src="/clients/shafa.png" alt="Black Tiger's Security" width={300} height={150} className=" obje"/>
+            </div>
+        </div>
+        <div class="px-8 md:px-16 lg:px-32 py-10 md:py-20">
+            <div class="grid grid-cols-2">
+                <div class="mr-10 md:mr-0 col-span-2 sm:col-span-1">
+                    <h3 class="text-3xl font-semibold my-6">Our Services</h3>
+                    <p>We provide an array of security services that includes!</p>
+            
+                    <div class="flex my-4">
+                        <div class="w-12 h-2 bg-gray-500 mt-2 mr-8"></div>
+                        <span>Physical Security</span>
+                    </div>
+                    <div class="flex my-4">
+                        <div class="w-12 h-2 bg-gray-500 mt-2 mr-8"></div>
+                        <span>Protective Security</span>
+                    </div>
+                    <div class="flex my-4">
+                        <div class="w-12 h-2 bg-gray-500 mt-2 mr-8"></div>
+                        <span>Security Management</span>
+                    </div>
+                    <div class="flex my-4">
+                        <div class="w-12 h-2 bg-gray-500 mt-2 mr-8"></div>
+                        <span>Private Investigators</span>
+                    </div>
+                    <div class="flex my-4">
+                        <div class="w-12 h-2 bg-gray-500 mt-2 mr-8"></div>
+                        <span>Security Education</span>
+                    </div>
+                    <div class="flex my-4">
+                        <div class="w-12 h-2 bg-gray-500 mt-2 mr-8"></div>
+                        <span>Electronic Security Gadgets</span>
+                    </div>
+                    <div class="flex my-4">
+                        <div class="w-12 h-2 bg-gray-500 mt-2 mr-8"></div>
+                        <span>Transportation</span>
+                    </div>
+                    <div class="flex my-4">
+                        <div class="w-12 h-2 bg-gray-500 mt-2 mr-8"></div>
+                        <span>Risk Management</span>
+                    </div>
+                    <div class="flex my-4">
+                        <div class="w-12 h-2 bg-gray-500 mt-2 mr-8"></div>
+                        <span>Human Resourcing</span>
+                    </div>
 
-
+                </div>
+                <Image src="/sec-dog.jpg" alt="Black Tiger's Security Dog" width={800} height={750} className="col-span-2 sm:col-span-1"/>
+            </div>
+        </div>
 
       </main>
 
