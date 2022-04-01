@@ -18,7 +18,7 @@ export default function Home() {
                   <header className="col-span-4">
                       <div>
                           <a href="index.html">
-                              <h1 className="text-4xl">Agency</h1>
+                              <h1 className="text-4xl">Logo</h1>
                           </a>
                       </div>
                   </header>
@@ -70,11 +70,10 @@ export default function Home() {
                           </div>
                       </div>
                       <div className="px-3 col-span-4 order-first md:col-span-2 md:order-1 lg:col-span-1">
-                          <Image src="/hero1.svg" alt="Black Tiger's Security" width={50} height={112} className="h-112 mt-5 w-full object-cover rounded-tl-big rounded-br-big"/>
+                          <Image src="/hero1.jpg" alt="Black Tiger's Security" width={500} height={1000} className="h-112 mt-5 w-full object-cover rounded-tl-big rounded-br-big"/>
                       </div>
                       <div className="pl-3 hidden order-2 lg:block">
-                          <img src="images/man.jpg" alt="image 2"
-                              className="h-60 w-full mb-3 object-cover rounded-tl-big rounded-br-big"/>
+                          <Image src="/hero2.jpg" alt="Black Tiger's Security" width={500} height={500} className="h-60 w-full mb-3 object-cover rounded-tl-big rounded-br-big"/>
                           <img src="images/comp.jpg" alt="image 3"
                               className="h-60 w-full mt-3 object-cover rounded-tl-big rounded-br-big"/>
                       </div>
